@@ -5,7 +5,7 @@
          colors="true"
 >
     <testsuites>
-        <testsuite name="Blade Heroicons Test Suite">
+        <testsuite name="Blade Google Material Design Icons Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

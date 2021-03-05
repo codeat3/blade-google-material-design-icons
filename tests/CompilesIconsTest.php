@@ -14,7 +14,6 @@ class CompilesIconsTest extends TestCase
     public function it_compiles_a_single_anonymous_component()
     {
         $result = svg('gmdi-1k')->toHtml();
-        dump($result);
 
         // Note: the empty class here seems to be a Blade components bug.
         $expected = <<<'SVG'
