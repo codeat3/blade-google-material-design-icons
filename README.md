@@ -56,10 +56,28 @@ And even use inline styles:
 <x-gmdi-1k style="color: #555"/>
 ```
 
-The solid icons can be referenced like this:
+The outlined icons can be referenced like this:
+
+```blade
+<x-gmdi-o-1k/>
+```
+
+The round icons can be referenced like this:
+
+```blade
+<x-gmdi-r-1k/>
+```
+
+The sharp icons can be referenced like this:
 
 ```blade
 <x-gmdi-s-1k/>
+```
+
+The two tone icons can be referenced like this:
+
+```blade
+<x-gmdi-tt-1k/>
 ```
 
 ### Raw SVG Icons

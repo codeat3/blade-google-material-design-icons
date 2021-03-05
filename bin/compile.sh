@@ -3,7 +3,6 @@
 set -e
 
 DIRECTORY=$(cd `dirname $0` && pwd)
-# DIST=$DIRECTORY/../dist
 RESOURCES=$DIRECTORY/../resources/svg
 
 SOURCE=$1
@@ -17,6 +16,7 @@ for CATEGORY_DIR in $SOURCE/src/*; do
     CATEGORY_NAME=${CATEGORY_DIR##*/}
     # echo $CATEGORY_NAME
     # exit
+    echo "Reading icons..."
     for ICON_DIR in $CATEGORY_DIR/*; do
         # Icon Directory Path
         # echo $ICON_DIR
@@ -64,17 +64,4 @@ for CATEGORY_DIR in $SOURCE/src/*; do
     done
 done
 
-
-# echo "Compiling outline icons..."
-
-# for FILE in $DIST/outline/*; do
-#   cp $FILE $RESOURCES/o-$(echo ${FILE##*/})
-# done
-
-# echo "Compiling solid icons..."
-
-# for FILE in $DIST/solid/*; do
-#   cp $FILE $RESOURCES/s-$(echo ${FILE##*/})
-# done
-
-# echo "All done!"
+echo "All done!"
