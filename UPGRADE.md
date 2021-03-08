@@ -19,5 +19,5 @@ php artisan vendor:publish --tag=blade-gmdi --force
 The new way to reference them is:
 
 ```blade
-<img src="{{ asset('vendor/blade-gmdi/o-adjustments.svg') }}" width="10" height="10"/>
+<img src="{{ asset('vendor/blade-gmdi/backup-o.svg') }}" width="10" height="10"/>
 ```
