@@ -85,11 +85,13 @@ class SvgIconCleaner
     {
         // for solid icons
         $finder = new Finder();
-        $finder->files()->in(self::RESOURCE_DIR)->name('*-s.svg');
+        $finder->files()->in(self::RESOURCE_DIR)->name('/\-(r|s|tt)\.svg$/');
         foreach ($finder as $file) {
             $changedText = $this->replaceSolidPatterns($file->getContents());
             if ($changedText !== false) {
                 file_put_contents($file->getRealPath(), $changedText);
+            } else {
+                echo 'no changes'.PHP_EOL;
             }
         }
 
@@ -97,7 +99,7 @@ class SvgIconCleaner
         $finder = new Finder();
         $finder->files()->in(self::RESOURCE_DIR)->name('*-o.svg');
         foreach ($finder as $file) {
-            $changedText = $this->replaceSolidPatterns($file->getContents());
+            $changedText = $this->replaceOutlinePatterns($file->getContents());
             if ($changedText !== false) {
                 file_put_contents($file->getRealPath(), $changedText);
             }
@@ -106,7 +108,7 @@ class SvgIconCleaner
 
     public function process()
     {
-        // $this->removeAttributes();
+        $this->removeAttributes();
 
         $this->addAttributes();
     }
