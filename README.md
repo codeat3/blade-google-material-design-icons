@@ -41,43 +41,43 @@ Please refer to [`the upgrade guide`](UPGRADE.md) when updating the library.
 Icons can be used as self-closing Blade components which will be compiled to SVG icons:
 
 ```blade
-<x-gmdi-1k/>
+<x-gmdi-backup/>
 ```
 
 You can also pass classes to your icon components:
 
 ```blade
-<x-gmdi-1k class="w-6 h-6 text-gray-500"/>
+<x-gmdi-backup class="w-6 h-6 text-gray-500"/>
 ```
 
 And even use inline styles:
 
 ```blade
-<x-gmdi-1k style="color: #555"/>
+<x-gmdi-backup style="color: #555"/>
 ```
 
 The outlined icons can be referenced like this:
 
 ```blade
-<x-gmdi-o-1k/>
+<x-gmdi-backup-o/>
 ```
 
 The round icons can be referenced like this:
 
 ```blade
-<x-gmdi-r-1k/>
+<x-gmdi-backup-r/>
 ```
 
 The sharp icons can be referenced like this:
 
 ```blade
-<x-gmdi-s-1k/>
+<x-gmdi-backup-s/>
 ```
 
 The two tone icons can be referenced like this:
 
 ```blade
-<x-gmdi-tt-1k/>
+<x-gmdi-backup-tt/>
 ```
 
 ### Raw SVG Icons
