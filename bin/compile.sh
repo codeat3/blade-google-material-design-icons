@@ -45,19 +45,19 @@ for CATEGORY_DIR in $SOURCE/src/*; do
                 $CP_COMMAND
             elif [[ $ICON_TYPE_NAME = 'materialiconsoutlined' ]]
             then
-                CP_COMMAND='cp '$ICON_SRC' '$RESOURCES'/o-'$CONVERTED_ICON_DESTINATION_NAME'.svg'
+                CP_COMMAND='cp '$ICON_SRC' '$RESOURCES'/'$CONVERTED_ICON_DESTINATION_NAME'-o.svg'
                 $CP_COMMAND
             elif [[ $ICON_TYPE_NAME = 'materialiconsround' ]]
             then
-                CP_COMMAND='cp '$ICON_SRC' '$RESOURCES'/r-'$CONVERTED_ICON_DESTINATION_NAME'.svg'
+                CP_COMMAND='cp '$ICON_SRC' '$RESOURCES'/'$CONVERTED_ICON_DESTINATION_NAME'-r.svg'
                 $CP_COMMAND
             elif [[ $ICON_TYPE_NAME = 'materialiconssharp' ]]
             then
-                CP_COMMAND='cp '$ICON_SRC' '$RESOURCES'/s-'$CONVERTED_ICON_DESTINATION_NAME'.svg'
+                CP_COMMAND='cp '$ICON_SRC' '$RESOURCES'/'$CONVERTED_ICON_DESTINATION_NAME'-s.svg'
                 $CP_COMMAND
             elif [[ $ICON_TYPE_NAME = 'materialiconstwotone' ]]
             then
-                CP_COMMAND='cp '$ICON_SRC' '$RESOURCES'/tt-'$CONVERTED_ICON_DESTINATION_NAME'.svg'
+                CP_COMMAND='cp '$ICON_SRC' '$RESOURCES'/'$CONVERTED_ICON_DESTINATION_NAME'-tt.svg'
                 $CP_COMMAND
             fi
         done
