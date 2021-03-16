@@ -2,6 +2,11 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 0.3.0 (2021-03-16)
+Added missing fill attribute to the default icons
+
+## 0.2.0 (2021-03-08)
+README updates
 
 ## 0.1.0 (2021-03-05)
 
