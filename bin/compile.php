@@ -84,22 +84,32 @@ class SvgIconCleaner
     private function addAttributes()
     {
         // for solid icons
+        // $finder = new Finder();
+        // $finder->files()->in(self::RESOURCE_DIR)->name('/\-(r|s|tt)\.svg$/');
+        // foreach ($finder as $file) {
+        //     $changedText = $this->replaceSolidPatterns($file->getContents());
+        //     if ($changedText !== false) {
+        //         file_put_contents($file->getRealPath(), $changedText);
+        //     } else {
+        //         echo 'no changes'.PHP_EOL;
+        //     }
+        // }
+
+        // // for outline icons
+        // $finder = new Finder();
+        // $finder->files()->in(self::RESOURCE_DIR)->name('*-o.svg');
+        // foreach ($finder as $file) {
+        //     $changedText = $this->replaceOutlinePatterns($file->getContents());
+        //     if ($changedText !== false) {
+        //         file_put_contents($file->getRealPath(), $changedText);
+        //     }
+        // }
+
+        // for normal patterns
         $finder = new Finder();
-        $finder->files()->in(self::RESOURCE_DIR)->name('/\-(r|s|tt)\.svg$/');
+        $finder->files()->in(self::RESOURCE_DIR)->notName(['*-o.svg', '*-r.svg', '*-s.svg', '*-tt.svg']);
         foreach ($finder as $file) {
             $changedText = $this->replaceSolidPatterns($file->getContents());
-            if ($changedText !== false) {
-                file_put_contents($file->getRealPath(), $changedText);
-            } else {
-                echo 'no changes'.PHP_EOL;
-            }
-        }
-
-        // for outline icons
-        $finder = new Finder();
-        $finder->files()->in(self::RESOURCE_DIR)->name('*-o.svg');
-        foreach ($finder as $file) {
-            $changedText = $this->replaceOutlinePatterns($file->getContents());
             if ($changedText !== false) {
                 file_put_contents($file->getRealPath(), $changedText);
             }
