@@ -8,10 +8,10 @@ DIRECTORY=$(cd `dirname $0` && pwd)
 
 mkdir -p $TEMP_DIR
 SOURCE=$TEMP_DIR/material-design-icons
-git clone git@github.com:google/material-design-icons.git $TEMP_DIR/material-design-icons
-# cd $SOURCE
-# git pull
-# cd $DIRECTORY/../
+# git clone git@github.com:google/material-design-icons.git $TEMP_DIR/material-design-icons
+cd $SOURCE
+git pull
+cd $DIRECTORY/../
 
 DIRECTORY=$(cd `dirname $0` && pwd)
 RESOURCES=$DIRECTORY/../resources/svg

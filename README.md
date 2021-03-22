@@ -23,8 +23,9 @@ For a full list of available icons see [the SVG directory](resources/svg) or pre
 
 ## Requirements
 
-- PHP 7.4 or higher
-- Laravel 8.0 or higher
+- PHP 7.3 or higher
+- Laravel 7.14 or higher
+
 
 ## Installation
 
@@ -54,12 +55,6 @@ And even use inline styles:
 
 ```blade
 <x-gmdi-backup style="color: #555"/>
-```
-
-The outlined icons can be referenced like this:
-
-```blade
-<x-gmdi-backup-o/>
 ```
 
 The round icons can be referenced like this:
