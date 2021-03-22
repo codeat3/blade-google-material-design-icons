@@ -2,6 +2,9 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.0.0 (2021-03-22)
+Upgrading to blade-icons v1.0.0
+
 ## 0.3.0 (2021-03-16)
 Added missing fill attribute to the default icons
 
