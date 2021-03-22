@@ -2,15 +2,28 @@
 
 set -e
 
+# prepare the source of icons by cloning the repo
+TEMP_DIR=blade-icon-temp-dir
+DIRECTORY=$(cd `dirname $0` && pwd)
+
+mkdir -p $TEMP_DIR
+SOURCE=$TEMP_DIR/material-design-icons
+git clone git@github.com:google/material-design-icons.git $TEMP_DIR/material-design-icons
+# cd $SOURCE
+# git pull
+# cd $DIRECTORY/../
+
 DIRECTORY=$(cd `dirname $0` && pwd)
 RESOURCES=$DIRECTORY/../resources/svg
 
-SOURCE=$1
+# rm $RESOURCES/*
+
 echo $SOURCE
 echo "Reading categories..."
 for CATEGORY_DIR in $SOURCE/src/*; do
     # Category Directory Path
-    # echo $CATEGORY_DIR
+    echo $CATEGORY_DIR
+    # exit
 
     # Category Name
     CATEGORY_NAME=${CATEGORY_DIR##*/}
@@ -46,7 +59,7 @@ for CATEGORY_DIR in $SOURCE/src/*; do
             elif [[ $ICON_TYPE_NAME = 'materialiconsoutlined' ]]
             then
                 CP_COMMAND='cp '$ICON_SRC' '$RESOURCES'/'$CONVERTED_ICON_DESTINATION_NAME'-o.svg'
-                $CP_COMMAND
+                # $CP_COMMAND
             elif [[ $ICON_TYPE_NAME = 'materialiconsround' ]]
             then
                 CP_COMMAND='cp '$ICON_SRC' '$RESOURCES'/'$CONVERTED_ICON_DESTINATION_NAME'-r.svg'
@@ -63,5 +76,7 @@ for CATEGORY_DIR in $SOURCE/src/*; do
         done
     done
 done
+
+echo "copied all svgs!"
 
 echo "All done!"
