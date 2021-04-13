@@ -1,14 +1,11 @@
 <p align="center">
-    <img src="https://banners.beyondco.de/Blade%20Google%20Material%20Design%20Icons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-google-material-design-icons&pattern=architect&style=style_1&description=A+package+to+use+Google+Fonts+Material+Icons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Google Material Design Icons">
+    <img src="https://banners.beyondco.de/Blade%20Google%20Material%20Design%20Icons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-google-material-design-icons&pattern=architect&style=style_1&description=A+package+to+use+Google+Material+Design+Icons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Google Material Design Icons">
 </p>
 
 # Blade Google Material Design Icons
 
 <a href="https://github.com/codeat3/blade-google-material-design-icons/actions?query=workflow%3ATests">
     <img src="https://github.com/codeat3/blade-google-material-design-icons/workflows/Tests/badge.svg" alt="Tests">
-</a>
-<a href="https://github.styleci.io/repos/258753939">
-    <img src="https://github.styleci.io/repos/258753939/shield?style=flat" alt="Code Style">
 </a>
 <a href="https://packagist.org/packages/codeat3/blade-google-material-design-icons">
     <img src="https://img.shields.io/packagist/v/codeat3/blade-google-material-design-icons" alt="Latest Stable Version">
