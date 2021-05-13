@@ -17,7 +17,7 @@ final class BladeGoogleMaterialDesignIconsServiceProvider extends ServiceProvide
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-google-material-design-icons', []);
 
-            $factory->add('blade-google-material-design-icons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
+            $factory->add('google-material-design-icons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
 
     }
@@ -32,7 +32,7 @@ final class BladeGoogleMaterialDesignIconsServiceProvider extends ServiceProvide
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__.'/../resources/svg' => public_path('vendor/blade-google-material-design-icons'),
-            ], 'blade-google-material-design-icons');
+            ], 'blade-gmdi');
 
             $this->publishes([
                 __DIR__.'/../config/blade-google-material-design-icons.php' => $this->app->configPath('blade-google-material-design-icons.php'),
