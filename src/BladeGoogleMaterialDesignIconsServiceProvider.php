@@ -32,7 +32,7 @@ final class BladeGoogleMaterialDesignIconsServiceProvider extends ServiceProvide
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__.'/../resources/svg' => public_path('vendor/blade-google-material-design-icons'),
-            ], 'blade-gmdi');
+            ], 'blade-gmdi'); // TODO: updating this alias to `blade-google-material-design-icons` in next major release
 
             $this->publishes([
                 __DIR__.'/../config/blade-google-material-design-icons.php' => $this->app->configPath('blade-google-material-design-icons.php'),
