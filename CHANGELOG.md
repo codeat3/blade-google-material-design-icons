@@ -2,6 +2,9 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.1.2 (2021-05-13)
+fixes the icon set name typo during last update & publish icon alias
+
 ## 1.1.1 (2021-05-12)
 Added support for config file
 
