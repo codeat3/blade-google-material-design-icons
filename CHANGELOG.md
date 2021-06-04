@@ -2,7 +2,7 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## Unreleased (2021-05-30)
+## 1.2.2 (2021-06-04)
 Updated with the latest icon updates (https://github.com/google/material-design-icons/commit/ab12f16d050ecb1886b606f08825d24b30acafea)
 
 ## 1.1.2 (2021-05-13)
