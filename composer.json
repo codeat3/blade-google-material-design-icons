@@ -14,12 +14,19 @@
             "homepage": "https://driesvints.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/Users/swapnil.s/code/codeat3/blade-icon-generation-helpers"
+        }
+    ],
     "require": {
         "php": "^7.4|^8.0",
         "blade-ui-kit/blade-icons": "^1.0",
         "illuminate/support": "^8.0"
     },
     "require-dev": {
+        "codeat3/blade-icon-generation-helpers": "dev-poc",
         "codeat3/phpcs-styles": "dev-main",
         "orchestra/testbench": "^6.0",
         "phpunit/phpunit": "^9.0"
