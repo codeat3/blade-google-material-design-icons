@@ -19,7 +19,6 @@ final class BladeGoogleMaterialDesignIconsServiceProvider extends ServiceProvide
 
             $factory->add('google-material-design-icons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
-
     }
 
     private function registerConfig(): void
@@ -39,5 +38,4 @@ final class BladeGoogleMaterialDesignIconsServiceProvider extends ServiceProvide
             ], 'blade-google-material-design-icons-config');
         }
     }
-
 }
