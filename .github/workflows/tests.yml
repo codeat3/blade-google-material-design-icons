@@ -18,6 +18,7 @@ jobs:
 
     name: PHP ${{ matrix.php }} - Laravel ${{ matrix.laravel }}
 
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -32,6 +33,6 @@ jobs:
       - name: Install dependencies
         run: |
           composer require "illuminate/contracts=${{ matrix.laravel }}" --prefer-dist --no-interaction --no-update
-          composer update --prefer-dist --no-interaction --no-progress
+          composer update --prefer-dist --no-interaction --no-progress --dev
       - name: Execute tests
         run: vendor/bin/phpunit --verbose
