@@ -2,6 +2,8 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## [Unreleased](https://github.com/codea3/blade-google-material-design-icons/compare/1.3.2...main)
+
 ## 1.3.2 (2021-10-07)
 - added auto generation script & auto update icons github workflow
 
