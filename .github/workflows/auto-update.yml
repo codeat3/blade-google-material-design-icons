@@ -2,7 +2,7 @@ name: Auto Update Icons
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 12 * * 1'
 
 jobs:
   generate:
@@ -79,4 +79,3 @@ jobs:
             This updates from [${{ env.CURRENT_COMMIT }}](https://github.com/${{ env.REPOSITORY }}/commit/${{ env.CURRENT_COMMIT }}) to [${{ env.LATEST_COMMIT }}](https://github.com/${{ env.REPOSITORY }}/commit/${{ env.LATEST_COMMIT }}).
             Check out the differences: [`${{ env.CURRENT_COMMIT }}` ... `${{ env.LATEST_COMMIT }}`](https://github.com/${{ env.REPOSITORY }}/compare/${{ env.CURRENT_COMMIT }}...${{ env.LATEST_COMMIT }})
           branch: feature/update-${{ env.LATEST_COMMIT }}
-
