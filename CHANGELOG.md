@@ -4,16 +4,16 @@ This changelog follows [the Keep a Changelog standard](https://keepachangelog.co
 
 ## [Unreleased](https://github.com/codea3/blade-google-material-design-icons/compare/1.5.2...HEAD)
 
-## 1.4.2 (2021-11-16)
-
-- Updated with the latest icon updates (https://github.com/google/material-design-icons/commit/6ebe181c634f9ced978b526e13db6d7d5cb1c1ba)
-
 ## [1.5.2](https://github.com/codea3/blade-google-material-design-icons/compare/1.3.2...1.5.2) - 2022-01-03
 
 ### Dev Update
 
 - added auto update change log workflow
 - running auto update only once a week
+
+## 1.4.2 (2021-11-16)
+
+- Updated with the latest icon updates (https://github.com/google/material-design-icons/commit/6ebe181c634f9ced978b526e13db6d7d5cb1c1ba)
 
 ## 1.3.2 (2021-10-07)
 
