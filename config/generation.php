@@ -64,4 +64,12 @@ return [
         'is-solid' => true,
         'output-suffix' => '-tt',
     ],
+    [
+        'source' => __DIR__.'/../dist/src/*/*/materialiconsoutlined/',
+        'destination' => __DIR__.'/../resources/svg',
+        'safe' => true,
+        'after' => $svgNormalization,
+        'is-solid' => true,
+        'output-suffix' => '-o',
+    ],
 ];
