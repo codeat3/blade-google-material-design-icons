@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codea3/blade-google-material-design-icons/compare/1.7.2...HEAD)
+## [Unreleased](https://github.com/codea3/blade-google-material-design-icons/compare/1.8.2...HEAD)
+
+## [1.8.2](https://github.com/codea3/blade-google-material-design-icons/compare/1.7.2...1.8.2) - 2022-02-04
+
+## What's Changed
+
+- Added support for Laravel 9 by @swapnilsarwe in https://github.com/codeat3/blade-google-material-design-icons/pull/9
+
+**Full Changelog**: https://github.com/codeat3/blade-google-material-design-icons/compare/1.7.2...1.8.2
 
 ## [1.7.2](https://github.com/codea3/blade-google-material-design-icons/compare/1.6.2...1.7.2) - 2022-01-11
 
