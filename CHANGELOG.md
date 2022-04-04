@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codea3/blade-google-material-design-icons/compare/1.9.2...HEAD)
+## [Unreleased](https://github.com/codea3/blade-google-material-design-icons/compare/1.10.2...HEAD)
+
+## [1.10.2](https://github.com/codea3/blade-google-material-design-icons/compare/1.9.2...1.10.2) - 2022-04-04
+
+## What's Changed
+
+- chore: update icons with the latest commit ve55dd24764ca40c0c0b78302f22cfcc6e72edb83 by @github-actions in https://github.com/codeat3/blade-google-material-design-icons/pull/11
+
+**Full Changelog**: https://github.com/codeat3/blade-google-material-design-icons/compare/1.9.2...1.10.2
 
 ## [1.9.2](https://github.com/codea3/blade-google-material-design-icons/compare/1.8.2...1.9.2) - 2022-03-07
 
