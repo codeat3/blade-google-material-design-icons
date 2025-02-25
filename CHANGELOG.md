@@ -2,7 +2,15 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
-## [Unreleased](https://github.com/codea3/blade-google-material-design-icons/compare/1.19.0...HEAD)
+## [Unreleased](https://github.com/codea3/blade-google-material-design-icons/compare/1.20.0...HEAD)
+
+## [1.20.0](https://github.com/codea3/blade-google-material-design-icons/compare/1.19.0...1.20.0) - 2025-02-25
+
+### What's Changed
+
+* added support for laravel 12
+
+**Full Changelog**: https://github.com/codeat3/blade-google-material-design-icons/compare/1.19.0...1.20.0
 
 ## [1.19.0](https://github.com/codea3/blade-google-material-design-icons/compare/1.18.2...1.19.0) - 2024-02-28
 
